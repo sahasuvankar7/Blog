@@ -1,2 +1,2 @@
-export const URL = "http://localhost:5000";
-export const IF = "http://localhost:5000/images/"
+export const URL = "https://blogapi-sahasuvankar7s-projects.vercel.app";
+export const IF = "https://blogapi-sahasuvankar7s-projects.vercel.app/images"

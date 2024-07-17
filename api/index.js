@@ -31,7 +31,7 @@ app.use(express.json());
 app.use('/images',express.static(path.join(__dirname,'images'))); // to access images
 app.use(
   cors({
-    origin: CLIENT_URL, // specify the origin for CORS
+    origin: ["https://blogclient-sahasuvankar7s-projects.vercel.app"], // specify the origin for CORS
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE", // specify the methods for CORS
     credentials: true, // this allows session cookies to be sent with requests
     optionsSuccessStatus: 200, // some legacy browsers choke on 204
